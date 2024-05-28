@@ -1,0 +1,24 @@
+@import "header.css";
+@import "footer.css";
+@import "home.css";
+@import "post.css";
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family:  ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+body {
+    background-color: #F8F7F6;
+}
+
+main {
+	min-height: 95vh;
+}
+
+h1, h2, h3, h4, h5, p, span {
+	margin: 0;
+	color: #986C4A;
+}
