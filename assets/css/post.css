@@ -24,3 +24,56 @@
 	margin-right: 20px;
 	font-family: 'Arial', sans-serif;
 }
+header {
+	background-color: #d8cfc4;
+	border-bottom: 1px solid #F8F7F6;
+}
+
+.navbar {
+	position: relative;
+	height: 60px;
+	width: 100%;
+	max-width: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar .logo {
+	
+	float: left;
+	height: 100px;
+	margin: 30px;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #986C4A;
+}
+.navbar .logo img {
+    width: 200px; /* Increase width */
+    height: 200px; /* Maintain aspect ratio */
+}
+
+.navbar ul {
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+.navbar ul li {
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+.navbar li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #986C4A;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		flex-direction: column;
+	}
+}
